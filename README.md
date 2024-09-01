@@ -12,3 +12,5 @@ A PEM file is a type of text file used to store and share security information l
 In AWS (Amazon Web Services), auto-scaling is a feature that automatically adjusts the number of Amazon EC2 (Elastic Compute Cloud) instances based on your application's needs. It means AWS will add more instances when your application needs more resources due to high demand and remove them when the demand decreases. This helps keep your application running smoothly and cost-efficiently.
 # Load Balancer 
 In AWS, a load balancer is a service that distributes incoming traffic across multiple servers or instances. This helps ensure that no single server gets overwhelmed with too much traffic, which improves performance and reliability. Essentially, it helps manage and balance the load so that your application runs smoothly even under heavy traffic.
+# Target Group
+In AWS, a target group is a group of resources, like EC2 instances, that a load balancer sends traffic to. It helps the load balancer know where to direct incoming requests. Each target group has rules to define how traffic should be distributed and can be used to manage different types of traffic or applications.
